@@ -1,6 +1,6 @@
 ---
-const  { color } = Astro.props;
+const  { size } = Astro.props;
 ---
-<h2 class={`mt-2 text-${color} lg:text-3xl sm:text-xl text-sm font-light`}>
+<h2 class={`mt-2 text-primary lg:text-3xl sm:text-xl text-sm font-${size}`}>
     <slot />
 </h2>

@@ -1,13 +1,19 @@
+---
+import Title from "./text/Title.astro"
+import Subtittle from "./text/Subtittle.astro"
+import Text from "./text/Text.astro"
+---
+
 <section class="w-5/6 mx-auto flex items-center justify-between lg:mb-20 sm:mb-4 mb-2">
     <article>
-        <h1 class="text-accent lg:text-5xl sm:text-2xl text-xl font-semibold text-opacity-70" >Ingeniero del software</h1>
-        <h5 class="mt-2 text-primary lg:text-3xl sm:text-xl text-sm font-light" >Fan del Open Source y Linux</h5>
-
-        <p class="mt-4 text-text text-wrap max-w-xl lg:text-lg sm:text-sm text-xs">
+        <Title color="accent">Ingeniero del software</Title>
+        <Subtittle color="primary">Fan del Open Source y Linux</Subtittle>
+        
+        <Text>
             Disfruto colaborando en equipos multidisciplinares, busco una posición
             que me permita aprovechar mis habilidades en el desarrollo de software, me especializo en: 
             <span class="font-bold">Big Data</span> e <span class="font-bold">Inteligencia Artificial. </span>       
-        </p>
+        </Text>
 
         <footer class="lg:mt-8 sm:mt-4 mt-2 flex gap-2">
             <a><img class="lg:h-12 sm:h-8 h-6 " src="./icons/linkedin.svg" /></a>

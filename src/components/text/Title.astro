@@ -1,0 +1,7 @@
+---
+const  { color,opacity } = Astro.props;
+---
+
+<h1 class={`text-lg text-${color} font-bold lg:text-5xl sm:text-2xl text-xl`}>
+    <slot />
+</h1>

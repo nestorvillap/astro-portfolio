@@ -6,6 +6,7 @@ export default {
 			colors:{
 				'bg': '#2B4560', 
 				'accent': '#61C9DE',
+				'subaccent':'#54A0BF',
 				'primary': '#6AA4B0' ,
 				'secondary': '#2F6D80',
 				'text': '#B8BCCF'
@@ -16,4 +17,10 @@ export default {
 		},
 	},
 	plugins: [],
+	safelist: [
+		'text-accent',
+		'text-subaccent',
+		'font-light',
+		'font-medium'
+	],
 }

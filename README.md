@@ -1,54 +1,88 @@
-# Astro Starter Kit: Basics
+# 🌌 Néstor Villa - Portfolio (In Development)
 
-```sh
-npm create astro@latest -- --template basics
+Welcome to my personal portfolio repository! This project showcases my skills and projects in **Software Engineering**, **Data Engineering**, and **Artificial Intelligence**. Built with **Astro** and optimized with **Bun** for faster builds and performance, it focuses on speed, efficiency, and a seamless user experience.
+
+## 🚀 About
+
+This portfolio serves as a digital resume to display my work in web and mobile development, data engineering, and AI projects. Through it, you can learn about my background, skills, and the technologies I specialize in.
+
+## ✨ Features
+
+- **Responsive Design**: Optimized for various devices and screen sizes.
+- **Fast Loading**: Leveraging Astro’s server-side rendering and Bun for quick builds.
+- **Project Showcase**: Organized sections highlighting key projects with descriptions and technology tags.
+- **Interactive Elements**: Animations and effects for a modern look.
+- **Bilingual Support**: Ready to present content in both Spanish and English.
+
+## 🛠️ Built With
+
+- **Astro**: For fast, server-rendered, and optimized static sites.
+- **Bun**: Enhances speed in builds and dependency management.
+- **React**: Interactive components within the Astro framework.
+- **Tailwind CSS**: Responsive styling with a modern design.
+- **Markdown**: Easily manage and update content in a structured format.
+
+## 📂 Folder Structure
+
+```
+├── public             # Static assets (images, icons, etc.)
+├── src
+│   ├── components     # Reusable components (navbar, footer, etc.)
+│   ├── layouts        # Layout files for pages
+│   ├── pages          # Main pages of the portfolio
+│   └── styles         # Custom styling and Tailwind CSS configuration
+└── astro.config.mjs   # Astro configuration file
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🚧 Getting Started
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+To clone and run this project locally, follow these steps:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+### Prerequisites
 
-## 🚀 Project Structure
+- **Node.js** (v14 or higher)
+- **Bun CLI**
+- **Astro CLI**
 
-Inside of your Astro project, you'll see the following folders and files:
+### Installation
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/nestorvillap/portfolio.git
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd portfolio
+   ```
+3. **Install dependencies with Bun**:
+   ```bash
+   bun install
+   ```
+
+### Running the Project
+
+Start the development server with Bun:
+
+```bash
+bun run dev
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+The site will be available at `http://localhost:3000`.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🚀 Deployment
 
-Any static assets, like images, can be placed in the `public/` directory.
+This project can be deployed on static hosting services such as **Vercel** or **Netlify**. To build for production with Bun:
 
-## 🧞 Commands
+```bash
+bun run build
+```
 
-All commands are run from the root of the project, from a terminal:
+Then, deploy the contents of the `dist` folder to your preferred hosting provider.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 📫 Contact
 
-## 👀 Want to learn more?
+If you'd like to connect or have any questions, feel free to reach out!
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- [LinkedIn](https://www.linkedin.com/in/nestor-villa)
+- [GitHub](https://github.com/nestorvillap)
+- Email: nestorvillap@gmail.com
